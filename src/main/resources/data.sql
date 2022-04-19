@@ -1,0 +1,2 @@
+create table payment (id bigint not null IDENTITY(1,1), service_code varchar(255), supply_number int, pay_amount float, transaction_date datetime PRIMARY KEY (id))
+create table service_info (id bigint not null IDENTITY(1,1), channel_type varchar(255), service_code varchar(255) PRIMARY KEY (id))
